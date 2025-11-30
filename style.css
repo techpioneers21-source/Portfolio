@@ -496,9 +496,8 @@ h6 {
     z-index: 5;
     filter: brightness(1.15) contrast(1.1);
 }
-
 /* Work Section */
-.bg_work_title {
+.bg_work_title{
     background: linear-gradient(91deg, rgba(255, 255, 255, 0.12) 5.22%, rgba(255, 255, 255, 0.08) 97.8%);
     display: flex;
     width: 7.125rem;
@@ -509,14 +508,12 @@ h6 {
     border-radius: 6.1875rem;
     border: 1px solid rgba(255, 255, 255, 0.08);
 }
-
-.bg-color {
+.bg-color{
     background: linear-gradient(91deg, rgba(255, 255, 255, 0.20) 5.22%, rgba(255, 255, 255, 0.12) 97.8%);
     border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 1rem;
 }
-
-.bg-button {
+.bg-button{
     background: linear-gradient(91deg, rgba(255, 255, 255, 0.12) 5.22%, rgba(255, 255, 255, 0.08) 97.8%);
     display: flex;
     padding: 0.25rem 0.5rem;
@@ -524,12 +521,18 @@ h6 {
     border-radius: 6.1875rem;
     border: 1px solid rgba(255, 255, 255, 0.08);
 }
-
-@media (min-width: 992px) {
-
-    /* lg and up */
-    .main_work_text {
+#work_size{
+    width: 75% !important;
+}
+@media (min-width: 992px) { 
+    .main_work_text{
         font-size: 2.2rem !important;
+    }
+}
+
+@media (max-width: 576px) {
+    #work_size{
+        width: 100% !important;
     }
 }
 
